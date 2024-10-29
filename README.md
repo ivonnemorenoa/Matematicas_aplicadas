@@ -20,7 +20,14 @@
   - [Distribución binomial](#distribución-binomial)
       - [Características de la distribución binomial](#características-de-la-distribución-binomial)
     - [Fórmula de la Distribución Binomial](#fórmula-de-la-distribución-binomial)
+      - [Ejemplo con gráfica](#ejemplo-con-gráfica)
   - [Estadística descriptiva](#estadística-descriptiva)
+    - [1. Medidas de Tendencia Central](#1-medidas-de-tendencia-central)
+    - [2. Medidas de Dispersión](#2-medidas-de-dispersión)
+    - [3. Medidas de Posición](#3-medidas-de-posición)
+    - [4. Distribución de Frecuencia](#4-distribución-de-frecuencia)
+    - [5. Representación Gráfica de Datos](#5-representación-gráfica-de-datos)
+    - [6. Medidas de Forma y Simetría](#6-medidas-de-forma-y-simetría)
   - [Ley de grandes números](#ley-de-grandes-números)
   - [Teorema central del límite](#teorema-central-del-límite)
   - [Regresiones lineales](#regresiones-lineales)
@@ -213,15 +220,104 @@ $$
 ![](assets/binomial4.png)
 <br>
 
-**Solucion "b"**
+**Solución "b"**
 
 ![](assets/binomial5.png)
 
+[Grafica y uso de calculadora, aquí.](https://youtu.be/Beaut1peTxY?si=T_erAPHPKlsvzvkZ&t=1012)
 <br>
+#### Ejemplo con gráfica
+![](assets/binomial6.png)
+
+**Representación Gráfica** 
+
+![](assets/binomial7.png)
 
 ## Estadística descriptiva
-Aquí va el contenido de la sección de estadística descriptiva.
-> esta es una nota
+
+<p>Las estadísticas descriptivas abarcan una variedad de técnicas y medidas que se utilizan para resumir y describir los aspectos importantes de un conjunto de datos. Los temas principales de las estadísticas descriptivas incluyen:</p>
+
+### 1. Medidas de Tendencia Central
+   Estas medidas describen el punto central o típico de un conjunto de datos. Incluyen:
+   - **Media**: El promedio de todos los valores.
+   - **Mediana**: El valor central en un conjunto de datos ordenado.
+   - **Moda**: El valor que más se repite en el conjunto de datos.
+
+| Categoría                   | Medida                        | Fórmula / Descripción                                                                                                                                                        |
+|-----------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medidas de Tendencia Central** | **Media**                  | \( \bar{x} = \frac{\sum_{i=1}^n x_i}{n} \) donde \( x_i \) son los valores y \( n \) es el número total de observaciones.                                                   |
+|                             | **Mediana**                   | Valor central en un conjunto ordenado: si \( n \) es impar, es el valor en \( \frac{n+1}{2} \); si \( n \) es par, es el promedio de los dos valores centrales.               |
+|                             | **Moda**                      | Valor que aparece con mayor frecuencia en el conjunto de datos.                                                                                                              |
+
+
+### 2. Medidas de Dispersión
+   Las medidas de dispersión indican cuánto varían o se dispersan los datos alrededor de la tendencia central. Incluyen:
+   - **Rango**: La diferencia entre el valor máximo y el mínimo.
+   - **Varianza**: La medida de cuánto varían los valores respecto a la media.
+   - **Desviación estándar**: La raíz cuadrada de la varianza, utilizada para medir la dispersión en las mismas unidades que los datos.
+   - **Coeficiente de variación**: Expresa la desviación estándar como un porcentaje de la media.
+
+| Categoría                   | Medida                        | Fórmula / Descripción                                                                                                                                                        |
+|-----------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medidas de Dispersión**   | **Rango**                     | \( R = \text{Valor máximo} - \text{Valor mínimo} \)                                                                                                                          |
+|                             | **Varianza**                  | \( \sigma^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n} \) para una población, o \( s^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n-1} \) para una muestra.                    |
+|                             | **Desviación estándar**       | \( \sigma = \sqrt{\frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n}} \) para una población, o \( s = \sqrt{\frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n-1}} \) para una muestra.           |
+|                             | **Coeficiente de variación**  | \( CV = \frac{\sigma}{\bar{x}} \times 100 \)                                                                                                                                 |
+### 3. Medidas de Posición
+   Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
+   - **Cuartiles**: Dividen el conjunto de datos en cuatro partes iguales.
+   - **Percentiles**: Dividen los datos en 100 partes iguales.
+   - **Deciles**: Dividen los datos en 10 partes iguales.
+
+| Categoría                   | Medida                        | Fórmula / Descripción                                                                                                                                                        |
+|-----------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medidas de Posición**     | **Cuartiles**                | Valores que dividen el conjunto de datos en cuatro partes iguales.                                                                                                           |
+|                             | **Percentiles**              | Valores que dividen el conjunto de datos en 100 partes iguales.                                                                                                              |
+|                             | **Deciles**                  | Valores que dividen el conjunto de datos en 10 partes iguales.                                                                                                               
+
+### 4. Distribución de Frecuencia
+   Una forma de representar datos agrupados en intervalos, mostrando cuántas veces ocurre cada valor o rango de valores:
+   - **Tablas de frecuencia**: Agrupan los datos en categorías o intervalos.
+   - **Frecuencia relativa**: La proporción de veces que un valor ocurre en relación al total de valores.
+   - **Frecuencia acumulada**: La suma de las frecuencias hasta un cierto punto en el conjunto de datos.
+
+| Categoría                   | Medida                        | Fórmula / Descripción                                                                                                                                                        |
+|-----------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Distribución de Frecuencia** | **Tablas de frecuencia** | Tabulación que agrupa los datos en intervalos y muestra cuántas veces ocurre cada valor o rango.                                                                             |
+|                             | **Frecuencia relativa**       | Proporción de veces que ocurre un valor: \( \text{Frecuencia relativa} = \frac{\text{Frecuencia del valor}}{\text{Número total de observaciones}} \)                         |
+|                             | **Frecuencia acumulada**      | Suma de las frecuencias de todos los valores hasta un punto específico en el conjunto de datos.                                                                              
+
+### 5. Representación Gráfica de Datos
+   Las gráficas son herramientas visuales para analizar la distribución y las características de los datos. Ejemplos de gráficos usados en estadísticas descriptivas:
+   - **Histogramas**: Representan la frecuencia de los datos en intervalos.
+   - **Gráficos de barras**: Comparan diferentes categorías o valores.
+   - **Diagramas de caja (box plots)**: Muestran la dispersión y detectan posibles valores atípicos.
+   - **Gráficos circulares**: Representan porcentajes de un total.
+   - **Gráficos de dispersión**: Usados para ver relaciones entre dos variables.
+
+|   | Medida                        |Descripción  |
+|-----------------------------|-------------------------------|----------------------------------------------------------------------------------------------------|
+|  | **Histogramas**       | ![](assets/histograma.png)                                   |
+|                             | **Gráficos de barras**        | ![](assets/graficosdebarras.png)                                                              |
+|                             | **Diagramas de caja**         | ![](assets/diagramacaja.png)    |
+|                             | **Gráficos circulares**       | ![](assets/graficocircular)                                                                                                                          |
+|                             | **Gráficos de dispersión**    | ![](assets/graficodispersion)                                                                                                                       
+
+### 6. Medidas de Forma y Simetría
+   Estas medidas describen la forma de la distribución de los datos:
+   - **Asimetría (skewness)**: Indica si la distribución tiene sesgo hacia la derecha o hacia la izquierda.
+   - **Curtosis**: Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.
+
+|        | Medida                        | Descripción                                                                                                                                                        |
+|-----------------------------|-------------------------------|---------------------------------------------------------------------|
+|| **Asimetría (skewness)** |   ![Asimetría](assets/asimetria.png)                                                                 |
+|                             | **Curtosis**                 | ![Curtsis](assets/curtosis.jpg.crdownload) |
+
+
+
+
+
+---
 
 ## Ley de grandes números
 Aquí va el contenido de la sección de la ley de grandes números.
