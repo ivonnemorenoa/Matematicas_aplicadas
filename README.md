@@ -288,33 +288,24 @@ $$
 |                             | **Frecuencia acumulada**      | Suma de las frecuencias de todos los valores hasta un punto específico en el conjunto de datos.                                                                              
 
 ### 5. Representación Gráfica de Datos
-   Las gráficas son herramientas visuales para analizar la distribución y las características de los datos. Ejemplos de gráficos usados en estadísticas descriptivas:
-   - **Histogramas**: Representan la frecuencia de los datos en intervalos.
-   - **Gráficos de barras**: Comparan diferentes categorías o valores.
-   - **Diagramas de caja (box plots)**: Muestran la dispersión y detectan posibles valores atípicos.
-   - **Gráficos circulares**: Representan porcentajes de un total.
-   - **Gráficos de dispersión**: Usados para ver relaciones entre dos variables.
+   Las gráficas son herramientas visuales para analizar la distribución y las características de los datos. Ejemplos de gráficos usados en estadísticas descriptivas:                                                        
 
-|   | Medida                        |Descripción  |
-|-----------------------------|-------------------------------|----------------------------------------------------------------------------------------------------|
-|  | **Histogramas**       | ![](assets/histograma.png)                                   |
-|                             | **Gráficos de barras**        | ![](assets/graficosdebarras.png)                                                              |
-|                             | **Diagramas de caja**         | ![](assets/diagramacaja.png)    |
-|                             | **Gráficos circulares**       | ![](assets/graficocircular)                                                                                                                          |
-|                             | **Gráficos de dispersión**    | ![](assets/graficodispersion)                                                                                                                       
+| Medida                        |Representación  |Descripción|
+|-------------------------------|-------------|--------------|
+| **Histogramas**       | ![](assets/histograma.png)|Representan la frecuencia de los datos en intervalos.|
+| **Gráficos de barras**        | ![](assets/graficosdebarras.png)|Comparan diferentes categorías o valores.|
+| **Diagramas de caja**         | ![](assets/diagramacaja.png)|Muestran la dispersión y detectan posibles valores atípicos.|
+| **Gráficos circulares**       | ![](assets/graficocircular)|Representan porcentajes de un total.|
+| **Gráficos de dispersión**    | ![](assets/graficodispersion)|Usados para ver relaciones entre dos variables.|
+
 
 ### 6. Medidas de Forma y Simetría
    Estas medidas describen la forma de la distribución de los datos:
-   - **Asimetría (skewness)**: Indica si la distribución tiene sesgo hacia la derecha o hacia la izquierda.
-   - **Curtosis**: Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.
 
-|        | Medida                        | Descripción                                                                                                                                                        |
-|-----------------------------|-------------------------------|---------------------------------------------------------------------|
-|| **Asimetría (skewness)** |   ![Asimetría](assets/asimetria.png)                                                                 |
-|                             | **Curtosis**                 | ![Curtsis](assets/curtosis.jpg.crdownload) |
-
-
-
+| Medida                   | Representación | Descripción |
+|--------------------------|--------------|---------------|
+| **Asimetría (skewness)** |![Asimetría](assets/asimetria.png)|Indica si la distribución tiene sesgo hacia la derecha o hacia la izquierda.|           
+| **Curtosis**             | ![Curtsis](assets/curtosis.jpg.crdownload)|Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.|
 
 
 ---
