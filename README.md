@@ -24,7 +24,9 @@
   - [Estadística descriptiva](#estadística-descriptiva)
     - [1. Medidas de Tendencia Central](#1-medidas-de-tendencia-central)
       - [Algunos ejemplos:](#algunos-ejemplos)
-    - [2. Medidas de Dispersión](#2-medidas-de-dispersión)
+    - [2. Medidas de Dispersión (o Variabilidad)](#2-medidas-de-dispersión-o-variabilidad)
+    - [Fórmulas de Varianza y Desviación Estándar](#fórmulas-de-varianza-y-desviación-estándar)
+      - [Algunos ejemplos:](#algunos-ejemplos-1)
     - [3. Medidas de Posición](#3-medidas-de-posición)
     - [4. Distribución de Frecuencia](#4-distribución-de-frecuencia)
     - [5. Representación Gráfica de Datos](#5-representación-gráfica-de-datos)
@@ -265,21 +267,42 @@ $$
 > * Cuando en la **Mediana** la cantidad de valores es un número par, tenemos que tomar la **Media** aritmética, la suma de ambos dividido entre 2. <br>
 > * Cuando no hay un valor que **más** se repite, entonces no hay **Moda**.
 
-### 2. Medidas de Dispersión
-   Las medidas de dispersión indican cuánto varían o se dispersan los datos alrededor de la tendencia central. Incluyen:
-   - **Rango**: La diferencia entre el valor máximo y el mínimo.
-   - **Varianza**: La medida de cuánto varían los valores respecto a la media.
+### 2. Medidas de Dispersión (o Variabilidad)
+   Las medidas de dispersión indican que tan dispersos o separados se encuentran los datos alrededor de la tendencia central. Son medidas estadísticas que muestran la variabilidad en la distribución de los datos.
+   
+   - **Varianza**: La medida de cuánto varían los valores respecto a la media, las cuales pide al cuadrado.
    - **Desviación estándar**: La raíz cuadrada de la varianza, utilizada para medir la dispersión en las mismas unidades que los datos.
    - **Coeficiente de variación**: Expresa la desviación estándar como un porcentaje de la media.
 
+| Media                          | Fórmula            |Descripción   |
+|------------------------------- |--------------------|------------- |
+| **Rango, Amplitud o Recorrido**|  Rango = valor máximo - valor mínimo| Es la diferencia entre el valor máximo y el mínimo de un conjunto de datos.|
+| **Desviación Media**           |![](assets/desviacionestandar.png)|La raíz cuadrada de la varianza, utilizada para medir la dispersión en las mismas unidades que los datos.|
+| **Varianza**                   | |La medida de cuánto varían los valores respecto a la media, las cuales pide al cuadrado.|
+| **Desviación estándar**        |                    |              |
+| **Coeficiente de variación**   |                    |              |
+
+> Población: Es el conjunto de todos los elementos cuya caracteristicas se van a estudiar. <br>
+> Muestra: Es un subconjunto de la población.<br>
+
+![](assets/poblacion.png)
+
+### Fórmulas de Varianza y Desviación Estándar
+
+|              | **Varianza**                                                    | **Desviación Estándar**                                       | **Media**                                 |
+|--------------|------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------|
+| **Población**| \( \sigma^2 = \frac{\sum_{i=1}^N (x_i - \mu)^2}{N} \)           | \( \sigma = \sqrt{\sigma^2} = \sqrt{\frac{\sum_{i=1}^N (x_i - \mu)^2}{N}} \) | \( \mu = \frac{\sum_{i=1}^N x_i}{N} \) |
+| **Muestra**  | \( s^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n - 1} \)        | \( s = \sqrt{s^2} = \sqrt{\frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n - 1}} \)  | \( \bar{x} = \frac{\sum_{i=1}^n x_i}{n} \) |
 
 
-| Media                     | Fórmula            |Descripción   |
-|-------------------------- |--------------------|------------- |
-| **Rango**                 |                    |              |
-| **Varianza**              |                    |              |
-|**Desviación estándar**    |                    |              |
-|**Coeficiente de variación**|                   |              |
+#### Algunos ejemplos:
+| Medida    | Ejercicio |
+|-----------|---------|
+| **Rango, Amplitud o Recorrido**  | ![](assets/rango.png)|
+| **Desviación Media** | ![]()|
+| **Varianza**    | ![]()        |
+| **Desviación estándar**|        |
+| **Coeficiente de variación**|    |
 
 ### 3. Medidas de Posición
    Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
@@ -327,7 +350,7 @@ $$
 | Medida                   | Representación | Descripción |
 |--------------------------|--------------|---------------|
 | **Asimetría (skewness)** |![Asimetría](assets/asimetria.png)|Indica si la distribución tiene sesgo hacia la derecha o hacia la izquierda.|           
-| **Curtosis**             | ![Curtsis](assets/curtosis.jpg.crdownload)|Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.|
+| **Curtosis**             | ![Curtsis](assets/curtosis.jpg)|Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.|
 
 
 ---
@@ -402,3 +425,6 @@ print("hello world")
   
 
 
+
+
+[def]: assets/varianza.png
