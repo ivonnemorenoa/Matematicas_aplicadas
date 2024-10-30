@@ -23,12 +23,18 @@
       - [Ejemplo con gráfica](#ejemplo-con-gráfica)
   - [Estadística descriptiva](#estadística-descriptiva)
     - [1. Medidas de Tendencia Central](#1-medidas-de-tendencia-central)
+      - [Algunos ejemplos:](#algunos-ejemplos)
     - [2. Medidas de Dispersión](#2-medidas-de-dispersión)
     - [3. Medidas de Posición](#3-medidas-de-posición)
     - [4. Distribución de Frecuencia](#4-distribución-de-frecuencia)
     - [5. Representación Gráfica de Datos](#5-representación-gráfica-de-datos)
     - [6. Medidas de Forma y Simetría](#6-medidas-de-forma-y-simetría)
   - [Ley de grandes números](#ley-de-grandes-números)
+    - [Tipos de la Ley de los Grandes Números](#tipos-de-la-ley-de-los-grandes-números)
+    - [Explicación](#explicación)
+    - [Fórmulas y Notación](#fórmulas-y-notación)
+    - [Ejemplo](#ejemplo)
+    - [Importancia](#importancia)
   - [Teorema central del límite](#teorema-central-del-límite)
   - [Regresiones lineales](#regresiones-lineales)
       
@@ -238,17 +244,26 @@ $$
 <p>Las estadísticas descriptivas abarcan una variedad de técnicas y medidas que se utilizan para resumir y describir los aspectos importantes de un conjunto de datos. Los temas principales de las estadísticas descriptivas incluyen:</p>
 
 ### 1. Medidas de Tendencia Central
-   Estas medidas describen el punto central o típico de un conjunto de datos. Incluyen:
+   Estas medidas describen el punto central o típico de un conjunto de datos que tienen como objetivo encontrar la parte central de un conjunto de datos.
    - **Media**: El promedio de todos los valores.
-   - **Mediana**: El valor central en un conjunto de datos ordenado.
+   - **Mediana**: El valor central en un conjunto de datos ordenado. 
    - **Moda**: El valor que más se repite en el conjunto de datos.
 
-| Categoría                   | Medida                        | Fórmula / Descripción                                                                                                                                                        |
-|-----------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Medidas de Tendencia Central** | **Media**                  | \( \bar{x} = \frac{\sum_{i=1}^n x_i}{n} \) donde \( x_i \) son los valores y \( n \) es el número total de observaciones.                                                   |
-|                             | **Mediana**                   | Valor central en un conjunto ordenado: si \( n \) es impar, es el valor en \( \frac{n+1}{2} \); si \( n \) es par, es el promedio de los dos valores centrales.               |
-|                             | **Moda**                      | Valor que aparece con mayor frecuencia en el conjunto de datos.                                                                                                              |
+| Medida    | Fórmula | Descripción|
+|-----------|---------|------------|
+| **Media** | ![](assets/media.png) | Es el valor que se obtiene al sumar todos los datos y dividir el resultado entre la cantidad de datos.|
+| **Mediana**|![](assets/mediana.png)| Es el valor que ocupa la posición central cuando todos los datos están ordenados.|
+| **Moda** |![](assets/moda.png) | Es el valor que más se repite. Es el valor con mayor frecuencia absoluta. |
 
+#### Algunos ejemplos:
+| Medida    | Ejercicio |
+|-----------|---------|
+| **Media**  | ![](assets/media2.png)|
+| **Mediana** | ![](assets/mediana2.png)|
+| **Moda**    | ![](assets/moda2.png)        |
+
+> * Cuando en la **Mediana** la cantidad de valores es un número par, tenemos que tomar la **Media** aritmética, la suma de ambos dividido entre 2. <br>
+> * Cuando no hay un valor que **más** se repite, entonces no hay **Moda**.
 
 ### 2. Medidas de Dispersión
    Las medidas de dispersión indican cuánto varían o se dispersan los datos alrededor de la tendencia central. Incluyen:
@@ -257,35 +272,42 @@ $$
    - **Desviación estándar**: La raíz cuadrada de la varianza, utilizada para medir la dispersión en las mismas unidades que los datos.
    - **Coeficiente de variación**: Expresa la desviación estándar como un porcentaje de la media.
 
-| Categoría                   | Medida                        | Fórmula / Descripción                                                                                                                                                        |
-|-----------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Medidas de Dispersión**   | **Rango**                     | \( R = \text{Valor máximo} - \text{Valor mínimo} \)                                                                                                                          |
-|                             | **Varianza**                  | \( \sigma^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n} \) para una población, o \( s^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n-1} \) para una muestra.                    |
-|                             | **Desviación estándar**       | \( \sigma = \sqrt{\frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n}} \) para una población, o \( s = \sqrt{\frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n-1}} \) para una muestra.           |
-|                             | **Coeficiente de variación**  | \( CV = \frac{\sigma}{\bar{x}} \times 100 \)                                                                                                                                 |
+
+
+| Media                     | Fórmula            |Descripción   |
+|-------------------------- |--------------------|------------- |
+| **Rango**                 |                    |              |
+| **Varianza**              |                    |              |
+|**Desviación estándar**    |                    |              |
+|**Coeficiente de variación**|                   |              |
+
 ### 3. Medidas de Posición
    Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
    - **Cuartiles**: Dividen el conjunto de datos en cuatro partes iguales.
    - **Percentiles**: Dividen los datos en 100 partes iguales.
    - **Deciles**: Dividen los datos en 10 partes iguales.
 
-| Categoría                   | Medida                        | Fórmula / Descripción                                                                                                                                                        |
-|-----------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Medidas de Posición**     | **Cuartiles**                | Valores que dividen el conjunto de datos en cuatro partes iguales.                                                                                                           |
-|                             | **Percentiles**              | Valores que dividen el conjunto de datos en 100 partes iguales.                                                                                                              |
-|                             | **Deciles**                  | Valores que dividen el conjunto de datos en 10 partes iguales.                                                                                                               
+                                                                                                              
+| Media           | Fórmula            |Descripción   |
+|-----------------|--------------------|------------- |
+| **Cuartiles**   |                    |              |
+| **Percentiles** |                    |              |
+| **Deciles**     |                    |              |
+                         
+
 
 ### 4. Distribución de Frecuencia
    Una forma de representar datos agrupados en intervalos, mostrando cuántas veces ocurre cada valor o rango de valores:
    - **Tablas de frecuencia**: Agrupan los datos en categorías o intervalos.
    - **Frecuencia relativa**: La proporción de veces que un valor ocurre en relación al total de valores.
    - **Frecuencia acumulada**: La suma de las frecuencias hasta un cierto punto en el conjunto de datos.
+                                                                         
 
-| Categoría                   | Medida                        | Fórmula / Descripción                                                                                                                                                        |
-|-----------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Distribución de Frecuencia** | **Tablas de frecuencia** | Tabulación que agrupa los datos en intervalos y muestra cuántas veces ocurre cada valor o rango.                                                                             |
-|                             | **Frecuencia relativa**       | Proporción de veces que ocurre un valor: \( \text{Frecuencia relativa} = \frac{\text{Frecuencia del valor}}{\text{Número total de observaciones}} \)                         |
-|                             | **Frecuencia acumulada**      | Suma de las frecuencias de todos los valores hasta un punto específico en el conjunto de datos.                                                                              
+| Media                   | Fórmula            |Descripción   |
+|-------------------------|--------------------|------------- |
+| **Tablas de frecuencia**|                    |              |
+| **Frecuencia relativa** |                    |              |
+| **Frecuencia acumulada**|                    |              |
 
 ### 5. Representación Gráfica de Datos
    Las gráficas son herramientas visuales para analizar la distribución y las características de los datos. Ejemplos de gráficos usados en estadísticas descriptivas:                                                        
@@ -311,8 +333,43 @@ $$
 ---
 
 ## Ley de grandes números
-Aquí va el contenido de la sección de la ley de grandes números.
-> esta es una nota
+
+<p>Es un teorema fundamental en la probabilidad y la estadística que describe el comportamiento de una muestra a medida que aumenta su tamaño. Explica que, bajo ciertas condiciones, la media de los resultados obtenidos de un gran número de experimentos repetidos se aproximará a la media esperada o teórica.</p>
+
+### Tipos de la Ley de los Grandes Números
+Existen dos tipos principales de la Ley de los Grandes Números:
+1. **Ley de los Grandes Números Débil**: Establece que, para un número suficientemente grande de observaciones, la media muestral convergerá en probabilidad hacia la media poblacional.
+2. **Ley de los Grandes Números Fuerte**: Declara que, al aumentar indefinidamente el número de observaciones, la media muestral converge casi con certeza (probabilidad 1) a la media poblacional.
+
+### Explicación
+Si \( X_1, X_2, \ldots, X_n \) son variables aleatorias independientes e idénticamente distribuidas con media esperada \( \mu \), entonces la media muestral:
+\[
+\bar{X}_n = \frac{1}{n} \sum_{i=1}^n X_i
+\]
+se aproximará a \( \mu \) a medida que \( n \) tiende a infinito. Esto es:
+\[
+\lim_{{n \to \infty}} \bar{X}_n = \mu
+\]
+
+### Fórmulas y Notación
+| Notación                | Descripción                                                                                |
+|-------------------------|--------------------------------------------------------------------------------------------|
+| \( X_1, X_2, \ldots, X_n \) | Variables aleatorias independientes con distribución idéntica y media esperada \( \mu \). |
+| \( \bar{X}_n \)              | Media muestral calculada como \( \bar{X}_n = \frac{1}{n} \sum_{i=1}^n X_i \).          |
+| \( \lim_{{n \to \infty}} \bar{X}_n = \mu \) | Convergencia de la media muestral hacia la media poblacional \( \mu \) a medida que \( n \) crece. |
+
+### Ejemplo
+Consideremos un experimento en el que lanzamos una moneda equilibrada. La probabilidad de obtener **cara** o **cruz** es 0.5. Según la Ley de los Grandes Números:
+- Si lanzamos la moneda solo 10 veces, la proporción de caras podría no ser exactamente 0.5 debido a la pequeña muestra.
+- Sin embargo, si lanzamos la moneda 1,000 o 10,000 veces, la proporción de caras tenderá a acercarse cada vez más a 0.5.
+
+### Importancia
+La Ley de los Grandes Números es esencial para la estadística inferencial, ya que garantiza que las muestras grandes proporcionan estimaciones más precisas de los parámetros poblacionales.
+
+---
+
+Este teorema nos permite confiar en los resultados de experimentos de gran tamaño, y en cómo las medias muestrales tienden a representar mejor la media poblacional conforme aumenta el tamaño de la muestra.
+
 
 ## Teorema central del límite
 Aquí va el contenido de la sección del teorema central del límite.
