@@ -26,11 +26,11 @@
       - [Algunos ejemplos:](#algunos-ejemplos)
     - [2. Medidas de Dispersión (o Variabilidad)](#2-medidas-de-dispersión-o-variabilidad)
     - [Fórmulas de Varianza y Desviación Estándar](#fórmulas-de-varianza-y-desviación-estándar)
-      - [Algunos ejemplos:](#algunos-ejemplos-1)
     - [3. Medidas de Posición](#3-medidas-de-posición)
     - [4. Distribución de Frecuencia](#4-distribución-de-frecuencia)
     - [5. Representación Gráfica de Datos](#5-representación-gráfica-de-datos)
     - [6. Medidas de Forma y Simetría](#6-medidas-de-forma-y-simetría)
+  - [| **Curtosis**             | |Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.|](#-curtosis--------------mide-el-grado-de-concentración-de-los-datos-en-el-centro-de-la-distribución-puede-indicar-si-la-distribución-es-más-o-menos-puntiaguda-en-comparación-con-una-distribución-normal)
   - [Ley de grandes números](#ley-de-grandes-números)
     - [Tipos de la Ley de los Grandes Números](#tipos-de-la-ley-de-los-grandes-números)
     - [Explicación](#explicación)
@@ -269,40 +269,42 @@ $$
 
 ### 2. Medidas de Dispersión (o Variabilidad)
    Las medidas de dispersión indican que tan dispersos o separados se encuentran los datos alrededor de la tendencia central. Son medidas estadísticas que muestran la variabilidad en la distribución de los datos.
-   
-   - **Varianza**: La medida de cuánto varían los valores respecto a la media, las cuales pide al cuadrado.
-   - **Desviación estándar**: La raíz cuadrada de la varianza, utilizada para medir la dispersión en las mismas unidades que los datos.
-   - **Coeficiente de variación**: Expresa la desviación estándar como un porcentaje de la media.
 
 | Media                          | Fórmula            |Descripción   |
 |------------------------------- |--------------------|------------- |
-| **Rango, Amplitud o Recorrido**|  Rango = valor máximo - valor mínimo| Es la diferencia entre el valor máximo y el mínimo de un conjunto de datos.|
-| **Desviación Media**           |![](assets/desviacionestandar.png)|La raíz cuadrada de la varianza, utilizada para medir la dispersión en las mismas unidades que los datos.|
-| **Varianza**                   | |La medida de cuánto varían los valores respecto a la media, las cuales pide al cuadrado.|
-| **Desviación estándar**        |                    |              |
-| **Coeficiente de variación**   |                    |              |
+| **1. Rango, Amplitud o Recorrido**|  Rango = valor máximo - valor mínimo| Es la diferencia entre el valor máximo y el mínimo de un conjunto de datos.|
+
+Ejercicio Practico: <br>
+
+![rango](assets/rango.png)
 
 > Población: Es el conjunto de todos los elementos cuya caracteristicas se van a estudiar. <br>
 > Muestra: Es un subconjunto de la población.<br>
 
-![](assets/poblacion.png)
+![poblacion](assets/poblacion.png)
 
 ### Fórmulas de Varianza y Desviación Estándar
 
-|              | **Varianza**                                                    | **Desviación Estándar**                                       | **Media**                                 |
-|--------------|------------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------|
-| **Población**| \( \sigma^2 = \frac{\sum_{i=1}^N (x_i - \mu)^2}{N} \)           | \( \sigma = \sqrt{\sigma^2} = \sqrt{\frac{\sum_{i=1}^N (x_i - \mu)^2}{N}} \) | \( \mu = \frac{\sum_{i=1}^N x_i}{N} \) |
-| **Muestra**  | \( s^2 = \frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n - 1} \)        | \( s = \sqrt{s^2} = \sqrt{\frac{\sum_{i=1}^n (x_i - \bar{x})^2}{n - 1}} \)  | \( \bar{x} = \frac{\sum_{i=1}^n x_i}{n} \) |
+> ¿Que es la varianza y la desviación estándar? La varianza y la desviación estándar son medidas de dispersión que indican qué tan alejados están los valores de los datos respecto a la media (promedio) de un conjunto de datos.
+
+* La varianza mide la media de las desviaciones al cuadrado respecto a la media. Cuanto mayor sea la varianza, más dispersos estarán los datos.
+* La desviación estándar es la raíz cuadrada de la varianza y proporciona una medida de dispersión en las mismas unidades que los datos originales. <br>
+
+![varianzaydesviacion](assets/varianzaydesviacion.png)
+<br>
+|| **2. Varianza**  | **3. Desviación Estándar**| **Media** |
+|---- |---------------|------------------------|-----------|
+| **Población**|Letra y griega sigma elevada al cuadrado y es igual a la sumatoria desde i=1 hasta n (del valor de cada uno de los elementos de la población menos la media poblacional) elevado al cuadrado divido entre el numero de elementos de la población.|Letra y griega sigma, la desviación estándar es la raíz cuadrada positiva de la varianza.|Letra M es igual a la sumatoria desde i=1 hasta n del valor de cada uno de los elementos de la población entre el número de elementos.|
+| **Muestra** | Letra "s" elevado al cuadrado y es igual a la sumatoria desde i=1 hasta n del valor de cada una de las observaciones de la muestra menos la media muestral elevada al cuadrado y dividido entre el número de observaciones de la muestra menos 1.| Letra "s" es la desviación estándar de la muestra. La desviación estándar es la raíz cuadrada positiva de la varianza.| La X raya ariba es la media de la muestra, suma los valores y la divide entre la cantidad de valores.| 
+
+<br>
+
+**Explicación de los símbolos:**<br>
+![simbología](assets/simbolos.png)
+
+<br>
 
 
-#### Algunos ejemplos:
-| Medida    | Ejercicio |
-|-----------|---------|
-| **Rango, Amplitud o Recorrido**  | ![](assets/rango.png)|
-| **Desviación Media** | ![]()|
-| **Varianza**    | ![]()        |
-| **Desviación estándar**|        |
-| **Coeficiente de variación**|    |
 
 ### 3. Medidas de Posición
    Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
@@ -351,8 +353,6 @@ $$
 |--------------------------|--------------|---------------|
 | **Asimetría (skewness)** |![Asimetría](assets/asimetria.png)|Indica si la distribución tiene sesgo hacia la derecha o hacia la izquierda.|           
 | **Curtosis**             | ![Curtsis](assets/curtosis.jpg)|Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.|
-
-
 ---
 
 ## Ley de grandes números
