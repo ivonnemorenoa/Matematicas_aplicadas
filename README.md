@@ -26,6 +26,7 @@
       - [Algunos ejemplos:](#algunos-ejemplos)
     - [2. Medidas de Dispersión (o Variabilidad)](#2-medidas-de-dispersión-o-variabilidad)
     - [Fórmulas de Varianza y Desviación Estándar](#fórmulas-de-varianza-y-desviación-estándar)
+      - [Ejercicios Practicos](#ejercicios-practicos)
     - [3. Medidas de Posición](#3-medidas-de-posición)
     - [4. Distribución de Frecuencia](#4-distribución-de-frecuencia)
     - [5. Representación Gráfica de Datos](#5-representación-gráfica-de-datos)
@@ -302,9 +303,22 @@ Ejercicio Practico: <br>
 **Explicación de los símbolos:**<br>
 ![simbología](assets/simbolos.png)
 
-<br>
+#### Ejercicios Practicos
 
+Varianza poblacional:<br>
 
+![](assets/varianzaydesviacion2.png)
+> Y para sacar la desviación estándar poblacional del ejercicio anterior, solo sacamos la raíz cuadrada.<br>
+> 
+![](assets/desviacionestandar2.png)
+
+Varianza muestral: <br>
+
+![](assets/varianza3.png)
+
+> Y para sacar la desviación estándar muestral del ejercicio anterior, solo sacamos la raíz cuadrada.<br>
+
+![](assets/desviacionestandar3.png)
 
 ### 3. Medidas de Posición
    Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
