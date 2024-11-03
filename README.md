@@ -31,7 +31,6 @@
     - [4. Distribución de Frecuencia](#4-distribución-de-frecuencia)
     - [5. Representación Gráfica de Datos](#5-representación-gráfica-de-datos)
     - [6. Medidas de Forma y Simetría](#6-medidas-de-forma-y-simetría)
-  - [| **Curtosis**             | |Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.|](#-curtosis--------------mide-el-grado-de-concentración-de-los-datos-en-el-centro-de-la-distribución-puede-indicar-si-la-distribución-es-más-o-menos-puntiaguda-en-comparación-con-una-distribución-normal)
   - [Ley de grandes números](#ley-de-grandes-números)
     - [Tipos de la Ley de los Grandes Números](#tipos-de-la-ley-de-los-grandes-números)
     - [Explicación](#explicación)
@@ -301,7 +300,12 @@ Ejercicio Practico: <br>
 <br>
 
 **Explicación de los símbolos:**<br>
-![simbología](assets/simbolos.png)
+
+|                                   |                           |
+|---------------------------------- |---------------------------|
+|![simbología](assets/simbolos.png) |![simbología2
+](assets/simbolos2.png)  |
+
 
 #### Ejercicios Practicos
 
@@ -319,6 +323,8 @@ Varianza muestral: <br>
 > Y para sacar la desviación estándar muestral del ejercicio anterior, solo sacamos la raíz cuadrada.<br>
 
 ![](assets/desviacionestandar3.png)
+
+![](assets/varianzaydesviacion3.png)
 
 ### 3. Medidas de Posición
    Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
@@ -365,9 +371,9 @@ Varianza muestral: <br>
 
 | Medida                   | Representación | Descripción |
 |--------------------------|--------------|---------------|
-| **Asimetría (skewness)** |![Asimetría](assets/asimetria.png)|Indica si la distribución tiene sesgo hacia la derecha o hacia la izquierda.|           
-| **Curtosis**             | ![Curtsis](assets/curtosis.jpg)|Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.|
----
+| **Asimetría (skewness)** |![](assets/asimetria.png)|Indica si la distribución tiene sesgo hacia la derecha o hacia la izquierda.|           
+| **Curtosis**             |![](assets/curtosis.jpg)|  Mide el grado de concentración de los datos en el centro de la distribución; puede indicar si la distribución es más o menos "puntiaguda" en comparación con una distribución normal.|
+
 
 ## Ley de grandes números
 
