@@ -25,8 +25,10 @@
     - [1. Medidas de Tendencia Central](#1-medidas-de-tendencia-central)
       - [Algunos ejemplos:](#algunos-ejemplos)
     - [2. Medidas de Dispersión (o Variabilidad)](#2-medidas-de-dispersión-o-variabilidad)
-    - [Fórmulas de Varianza y Desviación Estándar](#fórmulas-de-varianza-y-desviación-estándar)
-      - [Ejercicios Practicos](#ejercicios-practicos)
+      - [Rango](#rango)
+      - [Varianza y Desviación Estándar](#varianza-y-desviación-estándar)
+      - [Coeficiente de Variacion](#coeficiente-de-variacion)
+      - [Desviación Media](#desviación-media)
     - [3. Medidas de Posición](#3-medidas-de-posición)
     - [4. Distribución de Frecuencia](#4-distribución-de-frecuencia)
     - [5. Representación Gráfica de Datos](#5-representación-gráfica-de-datos)
@@ -270,9 +272,11 @@ $$
 ### 2. Medidas de Dispersión (o Variabilidad)
    Las medidas de dispersión indican que tan dispersos o separados se encuentran los datos alrededor de la tendencia central. Son medidas estadísticas que muestran la variabilidad en la distribución de los datos.
 
+   #### Rango
+
 | Media                          | Fórmula            |Descripción   |
 |------------------------------- |--------------------|------------- |
-| **1. Rango, Amplitud o Recorrido**|  Rango = valor máximo - valor mínimo| Es la diferencia entre el valor máximo y el mínimo de un conjunto de datos.|
+| **Rango, Amplitud o Recorrido**|  Rango = valor máximo - valor mínimo| Es la diferencia entre el valor máximo y el mínimo de un conjunto de datos.|
 
 Ejercicio Practico: <br>
 
@@ -283,7 +287,7 @@ Ejercicio Practico: <br>
 
 ![poblacion](assets/poblacion.png)
 
-### Fórmulas de Varianza y Desviación Estándar
+#### Varianza y Desviación Estándar
 
 > ¿Que es la varianza y la desviación estándar? La varianza y la desviación estándar son medidas de dispersión que indican qué tan alejados están los valores de los datos respecto a la media (promedio) de un conjunto de datos.
 
@@ -292,7 +296,7 @@ Ejercicio Practico: <br>
 
 ![varianzaydesviacion](assets/varianzaydesviacion.png)
 <br>
-|| **2. Varianza**  | **3. Desviación Estándar**| **Media** |
+|| **Varianza**  | **Desviación Estándar**| **Media** |
 |---- |---------------|------------------------|-----------|
 | **Población**|Letra y griega sigma elevada al cuadrado y es igual a la sumatoria desde i=1 hasta n (del valor de cada uno de los elementos de la población menos la media poblacional) elevado al cuadrado divido entre el numero de elementos de la población.|Letra y griega sigma, la desviación estándar es la raíz cuadrada positiva de la varianza.|Letra M es igual a la sumatoria desde i=1 hasta n del valor de cada uno de los elementos de la población entre el número de elementos.|
 | **Muestra** | Letra "s" elevado al cuadrado y es igual a la sumatoria desde i=1 hasta n del valor de cada una de las observaciones de la muestra menos la media muestral elevada al cuadrado y dividido entre el número de observaciones de la muestra menos 1.| Letra "s" es la desviación estándar de la muestra. La desviación estándar es la raíz cuadrada positiva de la varianza.| La X raya ariba es la media de la muestra, suma los valores y la divide entre la cantidad de valores.| 
@@ -303,11 +307,10 @@ Ejercicio Practico: <br>
 
 |                                   |                           |
 |---------------------------------- |---------------------------|
-|![simbología](assets/simbolos.png) |![simbología2
-](assets/simbolos2.png)  |
+|![simbología](assets/simbolos.png) |![simbología2](assets/simbolos2.png)  |
 
 
-#### Ejercicios Practicos
+**Ejercicios Practicos**
 
 Varianza poblacional:<br>
 
@@ -325,6 +328,35 @@ Varianza muestral: <br>
 ![](assets/desviacionestandar3.png)
 
 ![](assets/varianzaydesviacion3.png)
+
+**Ejemplos en tablas de frecuencia por intervalos:**
+| Varianza y Desviación Poblacional    | Varianza y Desviación Muestral|
+|--------------------------------------|-------------------------------|
+| ![](assets/varianzaydesviacion4.png) | ![](assets/varianzaydesviacion5.png)|
+
+#### Coeficiente de Variacion
+
+* Es una medida de dispersión relativa (no tiene unidades de medida: ~~kg~~, ~~cm~~).
+* Se define como el  cociente entre la desviación estándar y la media.
+* Se usa para comparar la variabilidad o dispersión en conjuntos de datos con diferentes unidades de medida.
+* También es útil para comparar la variabilidad o dispersión en conjuntos de datos con diferentes medidas.
+  
+
+|        **Forma Relativa**            |       **Forma Porcentual**    |
+|--------------------------------------|-------------------------------|
+| ![](assets/formarelativa.png) | ![](assets/formaporcentual.png)|
+
+**Ejemplos de Coeficiente de variación**
+
+|        **Ejemplo 1**            |       **Ejemplo 2**    |
+|--------------------------------------|-------------------------------|
+| ![](assets/coeficientedevariacion.png) | ![](assets/coeficientedevariacion2.png)|
+
+
+#### Desviación Media
+
+<p>Es la media aritmética de los valores absolutos de lo que se desvía cada valor respecto a la media.</p>
+
 
 ### 3. Medidas de Posición
    Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
