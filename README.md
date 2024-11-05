@@ -234,7 +234,7 @@ $$
 
 ![](assets/binomial5.png)
 
-[Grafica y uso de calculadora, aquí.](https://youtu.be/Beaut1peTxY?si=T_erAPHPKlsvzvkZ&t=1012)
+[Grafica y uso de calculadora, aquí.](https://youtu.be/Beaut1peTxY?si=T_erAPHPKlsvzvkZ&t=1012) :point_left:
 <br>
 #### Ejemplo con gráfica
 ![](assets/binomial6.png)
@@ -268,6 +268,8 @@ $$
 
 > * Cuando en la **Mediana** la cantidad de valores es un número par, tenemos que tomar la **Media** aritmética, la suma de ambos dividido entre 2. <br>
 > * Cuando no hay un valor que **más** se repite, entonces no hay **Moda**.
+
+---
 
 ### 2. Medidas de Dispersión (o Variabilidad)
    Las medidas de dispersión indican que tan dispersos o separados se encuentran los datos alrededor de la tendencia central. Son medidas estadísticas que muestran la variabilidad en la distribución de los datos.
@@ -380,6 +382,8 @@ Varianza muestral: <br>
 **Ejemplo completo de medidas de dispersión para datos no agrupados.**
 
 ![](assets/datosnoagrupados.png)
+
+[Medidas de dispersión para datos agrupados, aquí.](https://youtu.be/VjCeoPLmbhI?si=ME5QYHxLzO3FVyN-) :point_left:
 
 ---
 
