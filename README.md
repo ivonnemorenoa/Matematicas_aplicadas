@@ -355,8 +355,33 @@ Varianza muestral: <br>
 
 #### Desviación Media
 
-<p>Es la media aritmética de los valores absolutos de lo que se desvía cada valor respecto a la media.</p>
+<p>Es la media aritmética de los valores absolutos de lo que se desvía cada valor respecto a la media. La desviación media siempre va a quedar expresada en las misma unidades que los valores originales.</p>
 
+> Hay que hacer enfasis en la palabra **absoluto**, ya que los numeros negativos pasarán a positivos solo por el simple hecho de pasar a desviación media.
+
+![](assets/desviaciónmedia.png) Esta formula esta expresada en muestra y no en población, para cambiarla a población la n tiene que pasar a mayúscula "N" y la media de los datos pasa a ser la letra "M" mu.<br>
+
+**Esta es la formula de la desviación media para la población**
+
+![](assets/desviacionmediapoblacion.png)
+
+**Y como se ha explicado antes, no existen numeros negativos, así que la siguiente gráfica se explicará en números positivos**
+
+![](assets/desviaciónmedia3.png)
+
+
+|        **Ejemplo 1**             |       **Ejemplo 2**    |
+|----------------------------------|-------------------------------|
+| ![](assets/desviacionmedia4.png) | ![](assets/desviacionmedia5.png)|
+
+> Los ejercicios entre corchetes significa que los datos se encuentran ante un extremo cerrado.
+
+![](assets/desviaciónmedia6.png)
+**Ejemplo completo de medidas de dispersión para datos no agrupados.**
+
+![](assets/datosnoagrupados.png)
+
+---
 
 ### 3. Medidas de Posición
    Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
