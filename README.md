@@ -4,8 +4,27 @@
 
 ## Índice
 
+  - [1. Probabilidades Condicionales](1.%20Probabilidades_Condicionales/Readme.md)
+  - [2. Teorema de Bayes](2.%20Teorema_de_Bayes/Readme.md)
+  - [3. Distribución Binomial](3.%20Distribucion_Binomial/Readme.md)
+  - [4. Estadísticas Descriptivas](4.%20Estadistiscas_Descriptivas/Readme.md)
+  - [5. Ley de Grandes Números](5.%20Ley_de_Grandes_Numeros/Readme.md)
+  - [6. Teorema Central del Límite](6.%20Teorema_Central_del_Limite/Readme.md)
+  - [7. Regresiones Líneales](7.%20Regresiones_Lineales/Readme.md)
+- 
 - [Estadísticas](#estadísticas)
   - [Índice](#índice)
+  - [Probabilidades condicionales](#probabilidades-condicionales)
+    - [Ejemplo: Probabilidad de tener diabetes dado que la persona es mayor de 50 años](#ejemplo-probabilidad-de-tener-diabetes-dado-que-la-persona-es-mayor-de-50-años)
+      - [Información ficticia:](#información-ficticia)
+      - [Queremos calcular:](#queremos-calcular)
+      - [Fórmula de la probabilidad condicional:](#fórmula-de-la-probabilidad-condicional)
+      - [Sustituimos los valores:](#sustituimos-los-valores)
+  - [Teorema de Bayes](#teorema-de-bayes)
+      - [Fórmula del Teorema de Bayes](#fórmula-del-teorema-de-bayes)
+      - [Datos ficticios (del ejemplo anterior):](#datos-ficticios-del-ejemplo-anterior)
+      - [Cálculo usando el Teorema de Bayes:](#cálculo-usando-el-teorema-de-bayes)
+    - [Forma extendida](#forma-extendida)
   - [Distribución binomial](#distribución-binomial)
       - [Características de la distribución binomial](#características-de-la-distribución-binomial)
     - [Fórmula de la Distribución Binomial](#fórmula-de-la-distribución-binomial)
