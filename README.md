@@ -284,8 +284,8 @@ Ejercicio Practico: <br>
 
 ![rango](assets/rango.png)
 
-> Población: Es el conjunto de todos los elementos cuya caracteristicas se van a estudiar. <br>
-> Muestra: Es un subconjunto de la población.<br>
+> **Población:** Es el conjunto de todos los elementos cuya caracteristicas se van a estudiar. <br>
+> **Muestra:** Es un subconjunto de la población.<br>
 
 ![poblacion](assets/poblacion.png)
 
@@ -307,7 +307,7 @@ Ejercicio Practico: <br>
 
 **Explicación de los símbolos:**<br>
 
-|                                   |                           |
+|      **Representación**               |  **Sonido**               |
 |---------------------------------- |---------------------------|
 |![simbología](assets/simbolos.png) |![simbología2](assets/simbolos2.png)  |
 
@@ -388,19 +388,35 @@ Varianza muestral: <br>
 ---
 
 ### 3. Medidas de Posición
-   Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la ubicación relativa de un valor en comparación con otros valores del conjunto. Incluyen:
-   - **Cuartiles**: Dividen el conjunto de datos en cuatro partes iguales.
-   - **Percentiles**: Dividen los datos en 100 partes iguales.
-   - **Deciles**: Dividen los datos en 10 partes iguales.
+   Estas medidas muestran cómo se sitúan ciertos valores dentro del conjunto de datos y permiten conocer la **ubicación** relativa de un valor en comparación con otros valores del conjunto. Incluyen:
+
+   - **Cuartiles**: representan los valores 25%, 50% y 75%. **Q2 coincide con la mediana.**
+   - **Percentiles**: Son 100 valores que se representan en 99 posiciones donde el Q1 va a estar en la misma posición que el percentil 25, el Q2 en el percentil 50 y el Q3 en el percentil 75. El decil 8 es igual al percentil 80.
+   - **Deciles**: determinan los valores 10%, 20%, 30%,...90% de los datos, D5 coincide con Me.
+   - **Rango Intercuartílico**: La diferencia entre el percentil 75 y el percentil 25.
 
                                                                                                               
-| Media           | Fórmula            |Descripción   |
-|-----------------|--------------------|------------- |
-| **Cuartiles**   |                    |              |
-| **Percentiles** |                    |              |
-| **Deciles**     |                    |              |
+| Media           | Fórmula Impar   | Formula Par       |Descripción   |
+|-----------------|-----------------|-------------------|------------- |
+| **Cuartiles**   | ![](assets/cuartilimpar.png)|![](assets/cuartilpar.png)  |Son 3 valores de la variable que dividen a un conjunto de datos ordenados en **4** partes iguales.|
+| **Percentiles** |![](assets/percentil.png) |  |Los percentiles son 99 valores que dividen un conjunto de datos ordenados en **100** partes iguales. |
+| **Deciles**     |![](assets/decil.png)                    |   |Son 9 valores de la variable que **dividen** el conjunto de datos ordenados en **10** partes iguales. K es la posición que quiero encontra.           |
                          
 
+
+**Explicación de distribución**
+
+![](assets/mediaperdeccuar.png)
+
+**Ejemplos:**
+
+|    **Q1**   |      **Q2**       | **Q3** |
+|-------------|-------------------|--------|
+| ![](assets/cuartil1.png)|![](assets/cuartil2.png)|![](assets/cuartil3.png)
+
+![](assets/percentilesejemplo.png)
+
+---
 
 ### 4. Distribución de Frecuencia
    Una forma de representar datos agrupados en intervalos, mostrando cuántas veces ocurre cada valor o rango de valores:
