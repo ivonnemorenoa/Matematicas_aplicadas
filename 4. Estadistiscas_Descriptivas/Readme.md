@@ -2,6 +2,19 @@
 
 <p>Las estadísticas descriptivas abarcan una variedad de técnicas y medidas que se utilizan para resumir y describir los aspectos importantes de un conjunto de datos. Los temas principales de las estadísticas descriptivas incluyen:</p>
 
+- [Estadística descriptiva](#estadística-descriptiva)
+  - [1. Medidas de Tendencia Central](#1-medidas-de-tendencia-central)
+    - [Algunos ejemplos:](#algunos-ejemplos)
+  - [2. Medidas de Dispersión (o Variabilidad)](#2-medidas-de-dispersión-o-variabilidad)
+    - [Rango](#rango)
+    - [Varianza y Desviación Estándar](#varianza-y-desviación-estándar)
+    - [Coeficiente de Variacion](#coeficiente-de-variacion)
+    - [Desviación Media](#desviación-media)
+  - [3. Medidas de Posición](#3-medidas-de-posición)
+  - [4. Distribución de Frecuencia](#4-distribución-de-frecuencia)
+  - [5. Representación Gráfica de Datos](#5-representación-gráfica-de-datos)
+  - [6. Medidas de Forma y Simetría](#6-medidas-de-forma-y-simetría)
+
 ### 1. Medidas de Tendencia Central
    Estas medidas describen el punto central o típico de un conjunto de datos que tienen como objetivo encontrar la parte central de un conjunto de datos.
    - **Media**: El promedio de todos los valores.

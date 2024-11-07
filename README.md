@@ -11,4 +11,4 @@
   - [5. Ley de Grandes Números](5.%20Ley_de_Grandes_Numeros/Readme.md)
   - [6. Teorema Central del Límite](6.%20Teorema_Central_del_Limite/Readme.md)
   - [7. Regresiones Líneales](7.%20Regresiones_Lineales/Readme.md)
-- 
+  
