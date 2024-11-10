@@ -188,7 +188,7 @@ Varianza muestral: <br>
 
 ### 4. Distribución de Frecuencia
    Una forma de representar datos agrupados en intervalos, mostrando cuántas veces ocurre cada valor o rango de valores:
-   - **Tablas de frecuencia**: Agrupan los datos en categorías o intervalos.
+   - **Tablas de frecuencia**: A grupan los datos en categorías o intervalos.
    - **Frecuencia relativa**: La proporción de veces que un valor ocurre en relación al total de valores.
    - **Frecuencia acumulada**: La suma de las frecuencias hasta un cierto punto en el conjunto de datos.
                                                                          
